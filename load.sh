@@ -3,10 +3,10 @@ mkdir static
 mkdir static/data
 touch conf.py load.py clean.py transform.py feature.py model.py evaluate.py
 
-git init
-echo ".env/" >> .gitignore
-echo ".idea/" >> .gitignore
-echo "*.pyc" >> .gitignore
+#git init
+#echo ".env/" >> .gitignore
+#echo ".idea/" >> .gitignore
+#echo "*.pyc" >> .gitignore
 
 
 #cd /path/to/project && /path/to/interpreter/bin/python3.6 /path/to/forecast.py > /path/to/log.txt
