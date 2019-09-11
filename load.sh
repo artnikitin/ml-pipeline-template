@@ -7,6 +7,7 @@ mkdir static/data
 echo ".env/" >> .gitignore
 echo ".idea/" >> .gitignore
 echo "*.pyc" >> .gitignore
+echo "pipeline/" >> .gitignore
 
 pip install dvc
 dvc init
@@ -17,4 +18,4 @@ cd pipeline
 python setup.py install
 cd ..
 
-mv dvc_project_template ${BASH_ARGV[1]}
+#mv dvc_project_template ${BASH_ARGV[1]}
