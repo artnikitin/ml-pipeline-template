@@ -12,7 +12,6 @@ echo "pipeline/" >> .gitignore
 pip install dvc
 dvc init
 
-cd ..
 git clone git@github.com:artnikitin/pipeline.git
 cd pipeline
 python setup.py install
