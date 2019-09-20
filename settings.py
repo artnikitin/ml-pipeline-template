@@ -23,10 +23,3 @@ model = os.path.join(data_dir, 'model.pkl')
 # scores
 scores = os.path.join(data_dir, 'eval.json')
 
-# submission file
-
-
-# output matricies after featurization and other data cleaning, wrangling stuff
-train_matrix = os.path.join(data_dir, 'matrix-train.p')
-test_matrix = os.path.join(data_dir, 'matrix-test.p')
-
